@@ -16,13 +16,27 @@ h1
 }
 .menu
 {
+    list-style: none;
+    font-family: cursive;
+    float: right;
+    top: 10px;
+    right: 30px;
+    cursor: pointer;
+    color: black;
     position: fixed;
     padding-left: 5px;
     display: inline;
 }
 .links
 {
-    display: inline;
+     float: left;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    font-family: serif;
+    font-size: 20px
 }
 img
 {
